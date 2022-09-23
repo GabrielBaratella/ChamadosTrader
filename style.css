@@ -1,0 +1,69 @@
+body{
+    background-image: url(imagens/blob-scene-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 100%;
+}
+#capa{
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(8px) saturate(180%);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: center;
+    height: 630px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 25px; 
+    justify-content: center;
+    border: 8px solid rgba(160, 167, 19, 0.437);   
+}
+fieldset{
+    border: none;
+}
+#formularios{
+    margin-top: 30px;
+    padding-top: 10px;
+    flex: row;
+    text-align: center;
+}
+.inputs{
+    margin-top: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+}
+#enviar{
+    width: auto;
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction:row;
+    margin-left: 5%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(116, 116, 116);
+}
+#enviar:hover{
+    cursor: pointer;
+    background-color: rgb(109, 109, 31);
+    transition: 1s;
+    font-size: 15px;
+}
+#teste{
+    width: 250px;
+    height: 200px;
+}
+#logofml{
+    margin-bottom: 10px;
+}
+#msg{
+    margin-top: 10px;
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+}
